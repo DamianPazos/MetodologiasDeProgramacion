@@ -2,7 +2,7 @@
 using Practica_N_1.Interfaces;
 
 namespace MetodologiasDeProgramacion;
-// Ejercicio N°5 - Practica N°1
+
 public class Program
 {
     static void Main(string[] args)
@@ -10,6 +10,7 @@ public class Program
         // codigo programa
     }
 
+    // Ejercicio N°5 - Practica N°1
     public static void llenar(Coleccionable c)
     {
         Random random = new Random();
@@ -17,6 +18,26 @@ public class Program
         {
             Comparable numero = new Numero(random.Next(1, 100));
             c.agregar(numero);
+        }
+    }
+
+    // Ejericio N°6 - Practica N°1
+    public static void informar(Coleccionable c)
+    {
+        Console.WriteLine(c.cuantos);
+        Console.WriteLine(c.minimo);
+        Console.WriteLine(c.maximo);
+        Console.WriteLine("Ingrese un numero para determinar si esta en la lista: ");
+        int valorIngresado = int.Parse(Console.ReadLine());
+        Comparable numero = new Numero(valorIngresado);
+
+        if (c.contiene(numero))
+        {
+            Console.WriteLine("Contiene el elemento ingresado");
+        }
+        else
+        {
+            Console.WriteLine("No contiene el elemento ingresado");
         }
     }
 }
