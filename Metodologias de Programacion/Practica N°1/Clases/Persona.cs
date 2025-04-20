@@ -1,0 +1,47 @@
+﻿using Practica_N_1.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Practica_N_1.Clases
+{
+    // Ejercicio N°11 - Practica N°1
+    public abstract class Persona
+    {
+        private string nombre;
+        private int dni;
+
+        public Persona(string nombre, int dni)
+        {
+            this.nombre = nombre;
+            this.dni = dni;
+        }
+
+        public string getNombre()
+        {
+            return nombre;
+        }
+
+        public int getDni()
+        {
+            return dni;
+        }
+
+        public bool sosIgual(Comparable c)
+        {
+            return this.getDni() == ((Persona)c).getDni();
+        }
+
+        public bool sosMayor(Comparable c)
+        {
+            return this.getDni() > ((Persona)c).getDni(); ;
+        }
+
+        public bool sosMenor(Comparable c)
+        {
+            return this.getDni() < ((Persona)c).getDni();
+        }
+    }
+}
