@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Practica_N_1.Clases
 {
     // Ejercicio N°11 - Practica N°1
-    public abstract class Persona
+    public abstract class Persona : Comparable
     {
         private string nombre;
         private int dni;
