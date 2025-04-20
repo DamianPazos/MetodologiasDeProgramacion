@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Practica_N_1.Interfaces
 {
-    internal interface Comparable
+    // Ejercicio N°1 - Practica N°1
+    public interface Comparable
     {
+        bool sosIgual(Comparable c);
+        bool sosMenor(Comparable c);
+        bool sosMayor(Comparable c);
     }
 }
+
