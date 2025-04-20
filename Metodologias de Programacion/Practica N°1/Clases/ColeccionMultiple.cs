@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Practica_N_1.Clases
 {
     // Ejercicio N°8 - Practica N°1
-    public class ColeccionMultiple
+    public class ColeccionMultiple : Coleccionable
     {
         Pila pila;
         Cola cola;

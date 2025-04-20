@@ -8,14 +8,17 @@ public class Program
     static void Main(string[] args)
     {
         // Ejercicio N°7 - Practica N°1
+        // Ejercicio N°9 - Practica N°1
         Pila pila = new Pila();
         Cola cola = new Cola();
+        ColeccionMultiple multiple = new ColeccionMultiple(pila, cola);
 
         llenar(pila);
         llenar(cola);
 
         informar(pila);
         informar(cola);
+        informar(multiple);
     }
 
     // Ejercicio N°5 - Practica N°1
