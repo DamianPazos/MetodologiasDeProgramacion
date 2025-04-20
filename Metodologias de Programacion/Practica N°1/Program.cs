@@ -7,7 +7,15 @@ public class Program
 {
     static void Main(string[] args)
     {
-        // codigo programa
+        // Ejercicio N°7 - Practica N°1
+        Pila pila = new Pila();
+        Cola cola = new Cola();
+
+        llenar(pila);
+        llenar(cola);
+
+        informar(pila);
+        informar(cola);
     }
 
     // Ejercicio N°5 - Practica N°1
