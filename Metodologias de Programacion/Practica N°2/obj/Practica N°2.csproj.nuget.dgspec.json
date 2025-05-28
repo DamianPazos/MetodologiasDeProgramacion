@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\damia\\OneDrive\\Documentos\\Repositorios\\Metodologias de programacion\\Metodologias de programacion\\Practica N°1\\Practica N°1.csproj": {}
+    "C:\\Users\\damia\\OneDrive\\Documentos\\Repositorios\\Metodologias de programacion\\Metodologias de programacion\\Practica N°2\\Practica N°2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\damia\\OneDrive\\Documentos\\Repositorios\\Metodologias de programacion\\Metodologias de programacion\\Practica N°1\\Practica N°1.csproj": {
+    "C:\\Users\\damia\\OneDrive\\Documentos\\Repositorios\\Metodologias de programacion\\Metodologias de programacion\\Practica N°2\\Practica N°2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damia\\OneDrive\\Documentos\\Repositorios\\Metodologias de programacion\\Metodologias de programacion\\Practica N°1\\Practica N°1.csproj",
-        "projectName": "Practica N°1",
-        "projectPath": "C:\\Users\\damia\\OneDrive\\Documentos\\Repositorios\\Metodologias de programacion\\Metodologias de programacion\\Practica N°1\\Practica N°1.csproj",
+        "projectUniqueName": "C:\\Users\\damia\\OneDrive\\Documentos\\Repositorios\\Metodologias de programacion\\Metodologias de programacion\\Practica N°2\\Practica N°2.csproj",
+        "projectName": "Practica N°2",
+        "projectPath": "C:\\Users\\damia\\OneDrive\\Documentos\\Repositorios\\Metodologias de programacion\\Metodologias de programacion\\Practica N°2\\Practica N°2.csproj",
         "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damia\\OneDrive\\Documentos\\Repositorios\\Metodologias de programacion\\Metodologias de programacion\\Practica N°1\\obj\\",
+        "outputPath": "C:\\Users\\damia\\OneDrive\\Documentos\\Repositorios\\Metodologias de programacion\\Metodologias de programacion\\Practica N°2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\damia\\AppData\\Roaming\\NuGet\\NuGet.Config",

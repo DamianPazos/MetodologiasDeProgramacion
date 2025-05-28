@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "569eda08-b88a-4baa-8569-d4257e7dbf65": {
+      "ProjectGuid": "569eda08-b88a-4baa-8569-d4257e7dbf65",
+      "DisplayName": "Practica N°1",
+      "ColorIndex": 0
+    },
+    "1c4302ad-5c8e-45cd-978f-6f3943c596c5": {
+      "ProjectGuid": "1c4302ad-5c8e-45cd-978f-6f3943c596c5",
+      "DisplayName": "Practica N°2",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
